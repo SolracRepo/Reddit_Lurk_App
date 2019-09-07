@@ -29,3 +29,10 @@ code {
 .myFrames {
   height: 600px;
 }
+
+@media screen and (max-width: 700px) {
+  .media-container img, iframe, video {
+    width: 100%;
+    height: auto;
+  }
+}
