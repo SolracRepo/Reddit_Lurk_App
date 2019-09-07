@@ -99,16 +99,18 @@ class App extends Component {
                   className="btn waves-effect waves-light col s12"
                   onClick={this.handleNext}
                 >
-                  Next Set
+                  Next
                 </button>
               </div>
             </div>
           </form>
         </div>
+        <div className="media-container">
           <ListImages images={images} />
           <ListVideos video={this.state.data} />
           <ListOtherVids otherVideos={links} />
           <HostedVideos hostVideos={hosted} />
+        </div>
       </div>
     );
   }

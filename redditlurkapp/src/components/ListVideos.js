@@ -12,9 +12,7 @@ const ListVideos = (props) => {
     return (
         filtered.map((vals)=> {
             return (
-                <div className="img-container">
-                <iframe src={vals + "?autoplay=0"} scrolling="no" allowfullscreen="" controls frameborder="0"></iframe>
-                </div>
+                <iframe className="myFrames"src={vals + "?autoplay=0"} scrolling="no" allowfullscreen="" controls frameborder="0"></iframe>
             )
         })
     )

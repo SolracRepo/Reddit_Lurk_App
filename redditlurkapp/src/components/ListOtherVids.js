@@ -18,9 +18,7 @@ const ListOtherVids = ({otherVideos}) => {
     return (
        onlyLinks.map((values)=>{
            return (
-               <div className="img-container">
                <video src={values} controls></video>
-               </div>
            )
         })
     )
