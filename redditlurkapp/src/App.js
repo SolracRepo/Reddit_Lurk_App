@@ -118,7 +118,6 @@ const nsfwLinks = ["1000CCPLUS","1819CLUB","18PLUSGIFS","18_19","2000SGIRLS","2B
                   className="validate white red-text"
                   onChange={this.handleChange}
                 />
-                <label for="reddit">Enter SubReddit:</label>
                 <button
                   className="btn waves-effect waves-light col s12"
                   onClick={this.handleNext}
